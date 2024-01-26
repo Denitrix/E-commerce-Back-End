@@ -20,7 +20,8 @@ Clone or download the repo and run the `npm i` command in your terminal.
 
 ## Usage
 
-Use the command `npm run start` to start the to start the server, and send api queries as shown in the walkthrough video.
+Use the command `npm run start` to start the server, and send api queries as shown in the walkthrough video.
+[Walkthrough video.webm](https://github.com/Denitrix/E-commerce-Back-End/assets/15114255/bfff7644-8829-46ac-8d45-196fcaa49d7d)
 
 ## License
 
