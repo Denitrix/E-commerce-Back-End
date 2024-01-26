@@ -1,4 +1,40 @@
-# 13 Object-Relational Mapping (ORM): E-Commerce Back End
+# E-commerce Back End
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Questions](#questions)
+
+## Description
+
+A simple back end server for an e-commerce site.
+
+## Installation
+
+Clone or download the repo and run the `npm i` command in your terminal.
+
+## Usage
+
+Use the command `npm run start` to start the to start the server, and send api queries as shown in the walkthrough video.
+
+## License
+
+This application is covered under the MIT license.
+Please see here for more details (https://opensource.org/licenses/MIT)
+
+## Questions
+
+For any questions regarding this project, feel free to contact me through the following:
+
+- Email: alexmajors0613@gmail.com
+- GitHub: https://github.com/Denitrix
+
+<!-- # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
 ## Your Task
 
@@ -65,75 +101,75 @@ Your database should contain the following four models, including the requiremen
   * `id`
 
     * Integer.
-  
+
     * Doesn't allow null values.
-  
+
     * Set as primary key.
-  
+
     * Uses auto increment.
 
   * `category_name`
-  
+
     * String.
-  
+
     * Doesn't allow null values.
 
 * `Product`
 
   * `id`
-  
+
     * Integer.
-  
+
     * Doesn't allow null values.
-  
+
     * Set as primary key.
-  
+
     * Uses auto increment.
 
   * `product_name`
-  
+
     * String.
-  
+
     * Doesn't allow null values.
 
   * `price`
-  
+
     * Decimal.
-  
+
     * Doesn't allow null values.
-  
+
     * Validates that the value is a decimal.
 
   * `stock`
-  
+
     * Integer.
-  
+
     * Doesn't allow null values.
-  
+
     * Set a default value of `10`.
-  
+
     * Validates that the value is numeric.
 
   * `category_id`
-  
+
     * Integer.
-  
+
     * References the `Category` model's `id`.
 
 * `Tag`
 
   * `id`
-  
+
     * Integer.
-  
+
     * Doesn't allow null values.
-  
+
     * Set as primary key.
-  
+
     * Uses auto increment.
 
   * `tag_name`
-  
+
     * String.
 
 * `ProductTag`
@@ -198,7 +234,7 @@ Create the code needed in `server.js` to sync the Sequelize models to the MySQL 
 >
 > * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria: 
+This Challenge is graded based on the following criteria:
 
 ### Deliverables: 10%
 
@@ -258,3 +294,4 @@ You are required to submit BOTH of the following for review:
 
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+ -->
